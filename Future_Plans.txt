@@ -1,0 +1,17 @@
+This is a brief plan of possible future features that I want to add to Ardu Rover.
+If you have anything you want to see added, please let me know :)
+
+
+Ardu Command System:
+
+- Ardu DASS (Direct Arduino Script System) mode
+Goes into a scripting mode where the user can create and run scripts on the rover.
+
+- Ardu Command RC mode
+Ardu Rover can be driven via bluetooth commands (could be integrated into a control interface)
+
+- Ardu IR RC mode
+Ardu Rover can be driven with an IR remote
+
+- Ardu CMD Mission mode
+Ardu Rover can be driven and operated using a script.
