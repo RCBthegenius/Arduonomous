@@ -1,0 +1,37 @@
+For Ardu Rover V1.3.3
+Created 21st May 2021
+
+NOTE:
+1)Ardu Rover only accepts commands over bluetooth communication.
+  I use a blue tooth terminal on my laptop, but it works fine on most compatible BlueTooth terminals on mobile devices
+
+2)Make sure your Bluetooth terminal is set to New Line and not No Line Ending.
+
+3)These commands only work while Ardu Rover is in command promt state.
+  Command Promt is active after initializing, and also after the rover has returned home (or at least thinks it's home lol)
+
+
+Command List:
+
+/Ardu Start
+Ardu Rover will begin to search for an IR signal by driving around.
+(As of 1.3.3, Ardu Rover can only search in a straight line. This will hopefully change in a future update)
+
+/Ardu Reboot
+Runs the currently useless restart function, be aware that this will cause the code to hang (Stop) as Ardu Rover expects to restart.
+Requires further debugging, possible patches/ideas welcome.
+
+/Ardu Ping Me
+Really just to check that the rover is still connected if you have had to leave it for awhile, or it stops responding.
+
+/Ardu Show Data
+Use this command to view the latest data that Ardu Rover collected (returns error if no data, data is also cleared on device reset/power cycle)
+
+/Ardu Rest
+Sets the rover to rest mode, not sure if this mode actually saves power as it is, but it will only scan for a command input every 5s
+
+/Ardu Name
+Returns the name of the module it got the data from (This is a manually assigned string called devname, to change it, modify the string assignment: String devname = "[Name of device Ardu Rover searches for]";)
+
+/Ardu Rover Version
+Returns the version of Ardu Rover that your rover is running
