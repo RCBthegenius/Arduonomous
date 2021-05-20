@@ -1,0 +1,21 @@
+For Ardu Rover V1.3.3
+
+ALL I/O PINS ARE DIGITAL PINS!
+
+RX0   Nc
+TX1   Nc
+D2    Nc
+D3    Bluetooth IN
+D4    Bluetooth OUT
+D5  ~ Left Motor A
+D6  ~ Left Motor B
+D7    IR Input
+D8    Nc (This is the Reset pin, but it causes a premature reset everytime the board boots, hence why it isn't plugged in, but if you can get it to work, let me know :)
+D9  ~ Right Motor B
+D10 ~ Right Motor A
+D11   Right Motor Enable
+D12   Left Motor Enable
+D13   Nc
+
+~ =PWM Pin
+Nc =No Connection
